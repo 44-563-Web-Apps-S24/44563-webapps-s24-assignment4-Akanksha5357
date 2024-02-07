@@ -1,0 +1,86 @@
+.speech{
+    font-family:'Courier New', Courier, monospace;
+    font-size: 14px;
+color:black;  
+}
+.dir{
+    font-family:monospace;
+    font-size: 16px;
+    color:black;
+    background-color:#D8BFD8;
+}
+.dir:hover{
+    color:red;
+    background-color: aqua;
+}
+.KHIRIN{
+    font-style:italic;
+    color:blue;
+    font-size:medium;
+}
+.SHIPUCHIN{
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+color:pink;
+font-size:medium;
+}
+.name.KHIRIN:hover{
+  color:firebrick;
+  text-shadow: 3px 3px 4px blue;
+  border : 2px dashed orange;
+}
+.name.SHIPUCHIN:hover{
+  color:lightseagreen;
+ 
+  text-shadow: 3px 3px 6px darkred;
+  border : 2px dashed blue;
+}
+.tb,th,td{
+    border:3px solid;
+    color:black;
+    text-align:center;
+    margin-top: 60px;
+    margin-bottom: 20px;
+    margin-left: 80px;
+    margin-right: 40px;
+}
+th{
+    color:crimson;
+}
+th, td {
+    padding: 10px;
+    
+  }
+  tr:nth-child(even) {
+    background-color:#D8BFD8;
+}
+
+.navbar-horizontal {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color:brown;
+  }
+  
+  .active {
+    background-color: #04AA6D;
+  }
+  .material-icons{
+color:red;
+  }
